@@ -24,7 +24,7 @@ app.get("/api/:date?", function (req, res) {
   var date = req.params.date
   var parsedDate = +(date)
   if (!date)
-    return res.json({ unix: new Date(), utc: new Date().getTime() });
+    return res.json({ unix: new Date().getTime(), utc: new Date().toGMTString() });
   if (!isNaN(parsedDate))
     date = parsedDate;
   date = new Date(date)
