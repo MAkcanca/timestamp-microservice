@@ -11,4 +11,4 @@
 
 `{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}`
 
-**[Demo](https://timestamp-microservice.makcanca.repl.co/api/)**
+**[Demo](https://timestamp-microservice.makcanca.repl.co/)**
